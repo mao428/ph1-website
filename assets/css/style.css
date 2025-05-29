@@ -128,7 +128,41 @@ footer .sns-icons img:hover {
 
 /**
  * 2.3 - メインビジュアル
- */
+ */.main-visual {
+  background-image: url("../img/bg-mainvisual.jpg"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  color: white;
+}
+
+.main-text {
+  position: relative;
+  height: 100%;
+}
+
+.text-top {
+  position: absolute;
+  bottom: 15%;
+  width: 100%;
+  text-align: center;
+}
+
+.text-center {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  text-align: center;
+}
+
+.text-bottom {
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  text-align: center;
+}
 
 /**
  * 2.4 - POSSEとは
