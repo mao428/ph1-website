@@ -1,49 +1,73 @@
 <!DOCTYPE html>
-<head lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
-        <title>ph1 POSSE website</title>
-        <link rel="stylesheet" href="./assets/css/sp/reset.css"/>
-        <link rel="stylesheet" href="./assets/css/style.css" />
-    </head>
-    <body>
-        <header>
-            <img src="assets/img/logo.svg" alt="POSSEのロゴ" />
-            <nav>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="ph1-website">
+    <title>POSSE website</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <div class="logo">
+                <img src="assets/img/logo.svg" alt="POSSEのロゴ">
+            </div>
+            <nav class="navigation">
                 <ul>
-                    <li><a href="#">POSSEとは</a></li>
-                    <li><a href="#">イベント</a></li>
-                    <li><a href="#">日常生活</a></li>
+                    <a href="">POSSEとは</a>
+                    <a href="">イベント</a>
+                    <a href="">日常生活</a>
                 </ul>
             </nav>
+            <nav class="link">
+                <ul>
+                    <a href="https://x.com/posse_2024">
+                        <img src="assets/img/icon-twitter.png" alt="Twitterのロゴ">
+                    </a>
+                    <a href="https://www.instagram.com/posse_programming/">
+                        <img src="assets/img/icon-instagram.png">
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-            <div class="sns-icons">
-            <img src="assets/img/icon-twitter.png" />
-            <img src="assets/img/icon-instagram.png" />
-            </div>
-        </header>
+    <main>
         <section class="main-visual">
-            <div class="main-text">
-                <h1 class="text-top">学生プログラミングコミュニティPOSSE（ポッセ）</h1>
-                <p class="text-center">自分史上最高を仲間と</p>
-                <p class="text-bottom">SCROLL DOWN</p>
+            <div class="mainvisual-inner">
+                <div class="mainvisual-head">
+                    <h1 class="mainvisual-title">学生プログラミングコミュニティPOSSE（ポッセ）</h1>
+                    <p class="mainvisual-lead">自分史上最高を仲間と。</p>
+                </div>
             </div>
+            <div class="mainvisual-scroll">SCROLL DOWN</div>
         </section>
-        
+    </main>
 
-        <footer>
-            <img src ="assets/img/logo.svg" alt="POSSEのロゴ" />
-            <nav>
-                <ul>
-                    <li><a href="https://posse.community/">POSSE公式サイト</a></li>
-                </ul>
-            </nav>
-            <div class="sns-icons">
-            <img src="assets/img/icon-twitter.png" />
-            <img src="assets/img/icon-instagram.png" />
-            </div>
+    <footer class="footer-inner">
+        <div class="logo2">
+            <img src="assets/img/logo.svg">
+        </div>
+        <nav class="navigation2">
+            <ul>
+                <a href="https://posse.community/">POSSE公式サイト</a>
+            </ul>
+        </nav>
+        <nav class="link2">
+            <ul>
+                <a href="https://x.com/posse_2024">
+                    <img src="assets/img/icon-twitter.png">
+                </a>
+                <a href="https://www.instagram.com/posse_programming/">
+                    <img src="assets/img/icon-instagram.png">
+                </a>
+            </ul>
+        </nav>
+        <small>&copy; 2024 POSSE</small>
+    </footer>
 
-        </footer>
-    </body>
+</body>
+
+</html>
