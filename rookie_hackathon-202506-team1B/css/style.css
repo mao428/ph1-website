@@ -1,0 +1,94 @@
+header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(237, 164, 164);
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    position:fixed
+}
+
+main{
+    background-color: antiquewhite;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.main{
+    padding-top: 80px;
+}
+
+.team-member{
+    width: 1475px;
+    height: 500px;
+    background-image: url(../img/yonin.jpg);
+}
+.text{
+    text-align: center;
+    font-size: 400%;
+    color:rgb(248, 126, 193);
+    margin: 5%;
+}
+
+
+
+.slogan{
+    width: 1470px;
+    height: 735px;
+    background-image:url(../img/background-image.png);
+    background-position:center;
+    background-size: cover;
+    text-align:center;
+    color: #6dafed;
+    font-size: 400%;
+    display: grid;
+    place-items: center;
+}
+
+.slogan-contents{
+    background-color:rgba(255, 255,255,0.562);
+}
+
+.group-name{
+    text-align:center;
+    color:rgb(15, 8, 0);
+    background-color: rgb(227, 221, 141);
+    border-radius: 30%;
+    margin: 10%;
+    padding: 5%;
+    font-size:200%
+}
+
+.details{
+    text-align: center;
+    font-size: 40px;
+    margin:10%;
+    padding: 5%;
+    background-color:#c8f2ff;
+}
+
+.introduction{
+    font-size: 30px;
+    text-align: left;
+}
+
+.appeal-points{
+    text-align: center;
+    font-size: 30px;
+    margin: 5%;
+    padding: 3%;
+    background-color: whitesmoke;
+}
+
+.last-form{
+    text-align: center;
+    font-size: 40px;
+    margin: 5%;
+}
